@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.flexcontainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flexcontainer img{
+    border: 6px solid pink;
+    border-radius: 50px;
+    height: 400px;
+    width: auto;
+
+}
+.flexcontainer h1{
+    text-align: center;
+}
