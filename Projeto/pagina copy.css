@@ -1,0 +1,126 @@
+body{
+    background-image: url(assets/img/fundo1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+.cab{
+    height: 100px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 5px 0px  rgba(245, 245, 220, 0.342);
+}
+
+.cab img{
+    width: 180px;
+    padding: 5px;
+    
+}
+
+.navi{
+    margin-right: 30px;
+    height: 20px;
+    margin-top: 50px;
+}
+
+.navi .buttom{
+    background-color: rgb(241, 219, 178);
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 8px;
+    font-weight:600;
+    border: solid 1px rgb(63, 53, 33);
+}
+
+#cad_b{
+    background-color: rgb(250, 212, 141);
+}
+.flexcontainer{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.slider{
+    height: 300px;
+    width: 250px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slides{
+    width: 30%0%;
+    height: 300px ;
+    display: flex;
+}
+.slides input{
+   display: none;
+}
+.slide{
+    width: 25%;
+    position: relative;
+}
+.slides img{
+    width: 250px;
+}
+.manual-navega{
+    position: absolute;
+    width: 250px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+}
+.manual-but{
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+}
+.manual-but:not(:last-child){
+    margin-right: 10px;
+}
+#radio1:checked ~ .first{
+    margin-left:  0px;
+}
+#radio2:checked ~ .first{
+    margin-left:  -25%;
+}
+#radio3:checked ~ .first{
+    margin-left:  -50%;
+}
+
+
+
+h4{
+    margin-right: 190px;
+    margin-left: 190px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    font-size: 20px;
+}
+footer{
+    background-color: rgb(240, 230, 239);
+    padding: 20px;
+}
+footer div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+footer div div{
+    display: inline-block;
+    width: 300px;
+}
+footer h1{
+    font-size: 23px;
+}
+footer h2{
+    font-size: 18px;
+}
