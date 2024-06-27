@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+body{
+    height: 100vh;
+    background-image: url(../assets/img/fundo_estetica.png);
+    align-items: flex-start;
+}
+
+.cab{
+    height: 100px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 5px 0px  rgba(245, 245, 220, 0.342);
+}
+
+.cab img{
+    width: 180px;
+    padding: 5px;
+
+}
+
+.navi{
+    margin-right: 30px;
+    height: 20px;
+    margin-top: 50px;
+}
+
+.navi .buttom{
+    background-color: rgb(241, 219, 178);
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 8px;
+    font-weight:600;
+    border: solid 1px rgb(63, 53, 33);
+}
+
+#cad_b{
+    background-color: rgb(250, 212, 141);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-size: 17px;
+}
+
+.principal{
+   text-align: center;
+   margin-top: 200px;
+}
+
+.principal h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.principal p{
+    font-size: 20px;
+}
