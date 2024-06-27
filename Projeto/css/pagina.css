@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playwrite DE Grund", cursive;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.cab{
+    display: flex;
+    width: 100%;
+    gap: 10%;
+    background-color: rgba(255, 255, 255, 0.918);
+    box-shadow: 0px 5px 0px  rgba(245, 245, 220, 0.342);
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+.cab img{
+    width: 180px;
+    padding: 5px;
+    margin-right: 80px;
+}
+.buttom{
+   margin-top: 50px;
+   margin-left:40px ;
+   text-decoration: none;
+   font-weight: 600;
+   font-size: 15px;
+   color: rgb(189, 94, 252);
+}
+
+.buttom:hover{
+    text-decoration: underline;
+    color: rgb(154, 3, 255);
+}
+
+
+.main{
+    background-color:rgba(193, 110, 248, 0.315) ;
+    height: 800px;
+    margin: 100px auto;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#sobre{
+  
+    font-size: 50px;
+    padding-bottom: 100px;
+   
+}
+
+.main p{
+    font-size: 18px;
+   
+}
+
+.Catalogo{
+    margin-top: 20px;
+    background-color:rgba(193, 110, 248, 0.315) ;
+   
+    /* height: 800px; */
+    margin: 100px auto;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+
+#catalogo{
+    font-size: 50px;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    padding: 20px; 
+}
+
+.image-container {
+    flex: 0 1 calc(25% - 20px); 
+    margin: 10px; 
+    text-align: center;
+    border: 2px solid rgba(214, 115, 214, 0.829); 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    /* position: relative;  */
+}
+
+.image-container img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    border-radius: 6px; 
+}
+
+.overlay {
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(214, 115, 214, 0.829); 
+    padding: 8px; /* EspaÃ§amento interno */
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px; 
+}
+
+
+.overlay p {
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+
+
+.flexcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    font-size: 11px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.flexcontainer img{
+    border: 6px solid rgb(252, 78, 200);
+    border-radius: 50px;
+    height: 300px;
+    width: 250px;
+    margin: 50px;
+
+}
+
+.Contato{
+    background-color: rgb(240, 230, 239);
+    padding: 20px;
+    border-top: 2px solid black;
+    border-radius: 10px;
+}
+.Contato div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.Contato div div{
+    display: inline-block;
+    width: 300px;
+}
+.Contato h1{
+    font-size: 18px;
+}
+.Contato h2{
+    font-size: 16px;
+}
+.top{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 100,
+    'wght' 400,
+    'GRAD' 100,
+    'opsz' 24;
+    margin-top: 120px;
+    right: 15px;
+    margin-bottom: 0px;
+    position: fixed;
+    
+  }
+  .material-symbols-outlined:hover{
+      font-variation-settings:
+    'FILL' 100,
+    'wght' 10000,
+    'GRAD' 100,
+    'opsz' 24
+  }
+  
+  
+  .popup {
+      position: relative;
+      cursor: pointer;
+  }
+  .popup .popuptext {
+      visibility: hidden;
+      width: 300px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 9px;
+      position: absolute;
+      z-index: 1;
+      right: 60px;
+      top: 110px;
+      position: fixed;
+    }
+    .popup .show {
+      visibility: visible;
+      animation: fadeIn 1s;
+      
+    }
